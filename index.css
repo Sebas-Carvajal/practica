@@ -1,5 +1,6 @@
 
 
+@media only screen and (min-width: 480px) {
 body{
     background-image:url(inicio.jpg);
     background-size: cover;
@@ -8,6 +9,7 @@ body{
 .nav_celular{
     display:none;
 }
+
 a{
     display: inline;
     font-family: Arial;
@@ -18,23 +20,25 @@ a{
     right: 44%;
     transition-property:index;
 }
-
-@media only screen and (min-width: 480px) {
+}
+@media only screen and (max-width: 480px) {
     .nav_pc{
         display: none;
     }
-    body{
-        background-image:url(interface.jpg);
-        background-size: cover;
+    img{
+        width: 800px;
+        margin: -9px -5px 0 -150px;
+        height: 700px;
     }
+    
     a{
         display: inline;
         font-family: Arial;
-        font-size: 30px;
+        font-size: 25px;
         color: #fff;
         position: absolute;
-        bottom:47px;
-        right: 44%;
+        bottom:20px;
+        right: 147px;
         transition-property:index;
     }
 }
