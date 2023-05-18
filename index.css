@@ -1,0 +1,18 @@
+body{
+    background-image:url(inicio.jpg);
+    background-size: cover;
+    
+}
+
+a{
+    display: inline;
+    font-family: Arial;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    bottom:47px;
+    right: 44%;
+    transition-property:index;
+}
+
+
