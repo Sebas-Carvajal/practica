@@ -1,9 +1,13 @@
+
+
 body{
     background-image:url(inicio.jpg);
     background-size: cover;
     
 }
-
+.nav_celular{
+    display:none;
+}
 a{
     display: inline;
     font-family: Arial;
@@ -15,4 +19,23 @@ a{
     transition-property:index;
 }
 
+@media only screen and (min-width: 480px) {
+    .nav_pc{
+        display: none;
+    }
+    body{
+        background-image:url(interface.jpg);
+        background-size: cover;
+    }
+    a{
+        display: inline;
+        font-family: Arial;
+        font-size: 30px;
+        color: #fff;
+        position: absolute;
+        bottom:47px;
+        right: 44%;
+        transition-property:index;
+    }
+}
 
