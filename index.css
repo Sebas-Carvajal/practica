@@ -1,6 +1,9 @@
+@font-face {
+    font-family: Mortal Kombat;
+    src: url("C:/Users/57310/Desktop/Practica____CSS/Mortal-Kombat-MK11.otf");
+}
 
-
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
 body{
     background-image:url(inicio.jpg);
     background-size: cover;
@@ -25,20 +28,24 @@ a{
     .nav_pc{
         display: none;
     }
+    body{
+        background: #000;
+    }
+    
     img{
-        width: 800px;
-        margin: -9px -5px 0 -150px;
-        height: 700px;
+        width: 700px;
+        margin: 200px 10px 100px 10px;
+        height: 900px;
     }
     
     a{
         display: inline;
-        font-family: Arial;
-        font-size: 25px;
-        color: #fff;
+        font-family: Mortal Kombat;
+        font-size: 40px;
+        color: #E8E523;
         position: absolute;
-        bottom:20px;
-        right: 147px;
+        bottom:-280px;
+        right: 10px;
         transition-property:index;
     }
 }
