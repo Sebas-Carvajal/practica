@@ -252,8 +252,8 @@ img {
 }
    
 #noob-saibot:hover{
-    height:400px;
-    width:400px;
+    height:200px;
+    width:200px;
     transition: height 1s, width 1s;
 }
 #sub-zero{
@@ -264,8 +264,8 @@ img {
     
 }
 #sub-zero:hover{
-    height:400px;
-    width:400px;
+    height:200px;
+    width:200px;
     transition: height 1s, width 1s;
 }
 #scorpion{
@@ -275,8 +275,8 @@ img {
    
 }
 #scorpion:hover{
-    height:400px;
-    width:400px;
+    height:200px;
+    width:200px;
     transition: height 1s, width 1s;
 }
 /*configuracion del estilo y posicionamiento d elos parrafos con grid y teniendo en cuenta la disposicion entre columns y rows para poder posicionarlos*/
